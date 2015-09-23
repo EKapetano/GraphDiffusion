@@ -1,0 +1,11 @@
+20000			#Timesteps
+1			#Iterations
+5			#Number of sites/states
+1 -1 0 0 0		#
+-1 2 -1 0 0		#
+0 -1 2 -1 0		#Laplacian Matrix
+0 0 -1 2 -1		#
+0 0 0 -1 1		#
+0.01			#Time per step
+0 0 0 0 0		#Initial state
+0.01 0 0 0 -0.01	#External In-/Output
